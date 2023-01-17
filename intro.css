@@ -56,6 +56,72 @@ body{
     left: 0;
     z-index: 100000;
 }
+@media only screen and (max-width: 400px) {
+    .textHappynewyear {
+        width: 350px !important;
+    }
+    .slider1 .slider-img1 {
+        width: 350px !important;
+    }
+    .circle span {
+        width: 350px !important;
+        height: 350px !important;
+    }
+    .flower-img:nth-child(1){
+        left: 80px !important;
+        top: 230px !important;
+        width: 50px !important;
+    }
+    .flower-img:nth-child(2) {
+        left: 300px !important;
+        top: 480px !important;
+        width: 100px !important;
+    }
+    .flower-img:nth-child(3){
+        width: 50px !important;
+        top: 425px !important;
+        left: 340px !important;
+        
+    }
+    .flower-img:nth-child(4) {
+        top: 240px !important;
+        width: 80px !important;
+        right: 280px !important;
+    }
+    .flower-img:nth-child(5) {
+        width: 80px !important;
+        top: 455px !important;
+        left: 320px !important;
+    }
+    .flower-img:nth-child(6) {
+        top: 270px !important;
+        right: 290px !important;
+    }
+    .big_clouds1 {
+        top: 89% !important;
+    }
+    .big_clouds2 
+    {
+        top: 91% !important;
+    }
+    .big_clouds3 {
+        top: 92% !important;
+    }
+    .box-content .left {
+        min-width: 500px;
+        height: 200px !important;
+        width: 100% !important;
+
+    }
+    .box-content .right {
+        right: 502px !important;
+        top: 200px !important;
+        width: 100% !important;
+    }
+    .box-content {
+        height: 90% !important;
+    }
+}
 .textHappynewyear{
     position: absolute;
     width: 500px;
@@ -623,6 +689,7 @@ body{
     opacity: 0.5;
 }
 .box-flower{
+    display: flex;
     position: absolute;
     top: 0;
     left: 0;
