@@ -1117,6 +1117,8 @@ body{
     transition: .5s;
     cursor: pointer;
     animation: scaleCat 1s 4.2s forwards;
+    filter: drop-shadow(0 0 25px rgb(255, 255, 0));
+    transition: 1s;
 }
 @keyframes scaleCat{
     0%{
@@ -1897,3 +1899,4 @@ body{
         transform: scale(1);
     }
  }
+ 
